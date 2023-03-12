@@ -1,0 +1,48 @@
+:root {
+    --main-c: #2596be;
+    --secondary-c: #92cbdf;
+    --dark-c: #134b5f;
+    --light-c: #e9f5f9;
+}
+
+body, html, h1,h2,h3 {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+}
+
+body {
+    background-color: var(--light-c);
+}
+
+main {
+    min-height: 100vh;
+}
+
+.main-nav {
+    background-color: var(--secondary-c);
+    color: var(--dark-c);
+    padding-left: 2rem;
+}
+
+.header-logo-img {
+    height: 30px;
+    width: 30px;
+}
+
+.hero-section {
+    background-image: url("../img/feet-hero.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: var(--secondary-c);
+    padding: 2rem;
+}
