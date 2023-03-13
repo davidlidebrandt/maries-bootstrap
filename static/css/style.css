@@ -21,6 +21,14 @@ main {
     min-height: 100vh;
 }
 
+main section {
+    padding: 3rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+}
+
 .main-nav {
     background-color: var(--secondary-c);
     color: var(--dark-c);
@@ -46,3 +54,54 @@ main {
     background-color: var(--secondary-c);
     padding: 2rem;
 }
+
+.footer h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer h3 {
+    font-size: large;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.footer-social-media-links i {
+    font-size: x-large;
+}
+
+.footer-contact-links i { 
+    font-size: large;
+    color: var(--main-c);
+}
+
+.footer-social-media-links {
+    display: flex;
+}
+
+.footer-social-media-links a {
+    margin-right: 0.5rem;
+}
+
+.footer-contact-links, .footer-social-media-links, .footer-treatments-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact-links li, .footer-social-media-links li, .footer-treatments-links li {
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and (min-width: 1000px) {
+    footer {
+        display: flex;
+    }
+    .footer div {
+        margin: 0rem 4rem;
+    }
+    .footer h3 {
+        margin-top: 0;
+    }
+ }
