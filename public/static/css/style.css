@@ -22,7 +22,7 @@ main {
 }
 
 main section {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 main h2 {
@@ -63,8 +63,9 @@ main h2 {
 
 .footer h3 {
     font-size: large;
-    margin-bottom: 0.75rem;
-    margin-top: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
 }
 
 .footer-social-media-links i {
@@ -74,6 +75,14 @@ main h2 {
 .footer-contact-links i { 
     font-size: large;
     color: var(--main-c);
+}
+
+.footer-contact-links small {
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    text-transform: lowercase;
 }
 
 .footer-social-media-links {
