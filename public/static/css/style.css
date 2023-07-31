@@ -103,12 +103,16 @@ main h2 {
     margin-bottom: 0.5rem;
 }
 
+.behandlingar-container > div {
+    margin-bottom: 1.5rem;
+}
+
 
 @media screen and (min-width: 1000px) {
     footer {
         display: flex;
     }
-    .footer div {
+    .footer > div {
         margin: 0rem 4rem;
     }
     .footer h3 {
